@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festivales de Música - Tu Guía Definitiva</title>
+    <style>
+        table, tr, th, td {
+        border: 1px solid black;        
+        }
+
+        fieldset{
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Festivales de Música: Experriencias Inolvidables</h1>
+        <nav>
+            <ul>
+                <li><a href="#Introducción">Introducción</a></li>
+                <li><a href="#Festivales Populares">Festivales Populares</a></li>
+                <li><a href="#Consejos">Consejos</a></li>
+                <li><a href="#Experiencias">Experiencias de Festival</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>    
+    
+    <main>
+        <section id="Introducción">
+            <article>
+                <h2>Introducción a los Festivales de Música</h2>
+                <p>Los festivales de música son eventos que reúnen a miles de amantes de la música para disfrutar de <br>
+                    actuaciones en vivo, descubrir nuevos artistas y vivir experiencias únicas.</p>
+                <img src="img/cantante.jpg" alt="Cantante_linkinpark" title="Chester_Cantante_linkinpark">
+            </article>            
+        </section>
+        <section id="Festivales Populares">
+            <article>
+                <h2>Festivales Populares</h2>
+                <aside>
+                    <h3>Comparativa de Festivales</h3>
+                        <table>
+                            <tr>
+                                <th>Festival</th>
+                                <th>Ubicación</th>
+                                <th>Género Principal</th>
+                                <th>Duración</th>
+                            </tr>
+                            <tr>
+                                <td>Coachella</td>
+                                <td>California, EE.UU</td>
+                                <td>Variado</td>
+                                <td>3 días</td>
+                            </tr>
+                            <tr>
+                                <td>Tomorrowland</td>
+                                <td>Boom, Bélgica </td>
+                                <td>Electrónica</td>
+                                <td>3 días</td>
+                            </tr>
+                            <tr>
+                                <td>Glastonbuy</td>
+                                <td>Somerset, Reino Unido</td>
+                                <td>Rock/Alternativo</td>
+                                <td>5 días</td>
+                            </tr>
+                        </table>
+                </aside>
+            </article>
+        </section>
+        <section id="Consejos">
+            <article>
+                <h2>Consejos para Asistir a Festivales</h2>
+                <ol>
+                    <li>Planifica con anticipación</li>
+                    <li>Lleva ropa cómoda</li>
+                    <li>Mantente hidratado</li>
+                    <li>Protege tu piel del sol</li>
+                </ol>
+                <aside>
+                    <h4>Dato Curioso</h4> 
+                    <blockquote cite="https://es.wikipedia.org/wiki/Festival_de_Woodstock">El festival de Woodstock de 1969 atrajo a más de 400,000 personas, a pesar de que solo <br>
+                     se esperaban 50,000.</blockquote>
+                </aside>
+            </article>
+        </section>
+        <section id="Experiencias">
+            <article>
+                <h2>Experiencias de Festival</h2>
+                <p>Disfruta de este video que captura la esencia de los festivales de música:</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/PoX7C6cwNtY?si=770Bka-XGpkUqsiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </article>
+        </section>
+    </main>
+    <section id="Contacto">
+        <h2>Contacto y Suscripción</h2>
+        <form>
+            <fieldset>
+            <legend>Información Personal</legend>
+                <label for="Nombre">Nombre:</label>
+                <input type="text" name="Nombre" id="Nombre" required><br><br>
+                <label for="Email">Email:</label>
+                <input type="email" name="email" id="email" required><br><br>   
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Géneros de musicales preferidos:</legend>
+                <label for="Genero">Genero:</label>
+                <input type="checkbox" name="Genero" id="Rock" value="Rock">
+                <label for="Rock">Rock</label>
+                <input type="checkbox" name="Genero" id="Metal" value="Metal">
+                <label for="Metal">Metal</label>
+                <input type="checkbox" name="Genero" id="Pop" value="Pop">
+                <label for="Pop">Pop</label>
+                <input type="checkbox" name="Genero" id="Otro" value="Otro">
+                <label for="Otro">Otro</label><br><br>
+
+                <label for="Festival">Festival Favorito</label>
+                    <select id="Festival" name="Festival">
+                        <option value="" disabled selected>Selecciona un Festival</option>
+                        <option value="Coachella">Coachella</option>
+                        <option value="Tomorrowland">Tomorrowland</option>
+                        <option value="Glastonbuy">Glastonbuy</option>
+                        <option value="Rock resurrection">Rock resurrection</option>
+                    </select>
+            </fieldset><br>
+            <fieldset>
+                <legend>Cuentanos más</legend>
+                <label for="Comentario">Comentarios:</label>
+            <textarea name="Comentario" id="Comentario" rows="3" cols="20"></textarea>
+            </fieldset><br>
+            <input type="button" value="Suscribirse">
+        </form>
+        <aside>
+            <h3>Ubicación de nuestra oficina:</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.3213519912993!2d-3.6743261241132403!3d40.423882655204196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228a559a82bfd%3A0x824fe75010a905e3!2sWiZink%20Center!5e0!3m2!1ses!2ses!4v1729251696352!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </aside>
+    </section>
+    <footer>
+        <hr style="border: 1.5px solid black;">
+        <strong>Ultima actualización: 17 octubre de 2024</strong><br> <br>
+        <em>Contacto: <a href="mailto:info@festivalesdemusica.com">info@festivalesdemusica.com</a></em>
+        <p>Nombre del alumno: Jesús López Viña</p>
+    </footer>
+</body>
+</html>
